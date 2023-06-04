@@ -18,7 +18,7 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
 
 ## License
 
-本プログラムは`MIT License`として公開します。
+本プログラムは[`MIT License`](https://github.com/Def4Root/go-shell-commands/blob/main/LICENSE)として公開します。
 
 ## Updates
 
