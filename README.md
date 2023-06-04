@@ -26,3 +26,4 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
 - 6/4
   - [`ls`](https://github.com/Def4Root/go-shell-commands/tree/main/ls)
   - [`cat`](https://github.com/Def4Root/go-shell-commands/tree/main/cat)
+  - [`tac`](https://github.com/Def4Root/go-shell-commands/tree/main/tac)
