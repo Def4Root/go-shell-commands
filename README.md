@@ -25,3 +25,4 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
 2023
 - 6/4
   - [`ls`](https://github.com/Def4Root/go-shell-commands/tree/main/ls)
+  - [`cat`](https://github.com/Def4Root/go-shell-commands/tree/main/cat)
