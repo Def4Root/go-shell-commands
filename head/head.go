@@ -14,7 +14,7 @@ func main() {
 
 	file, err := ioutil.ReadFile(os.Args[1])
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("Can't read file:", err)
 		return
 	}
 
