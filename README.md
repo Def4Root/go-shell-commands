@@ -30,3 +30,4 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
 - 6/5
   - [`echo`](https://github.com/Def4Root/go-shell-commands/tree/main/echo)
   - [`pwd`](https://github.com/Def4Root/go-shell-commands/tree/main/pwd)
+  - [`mkdir`](https://github.com/Def4Root/go-shell-commands/tree/main/mkdir)
