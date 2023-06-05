@@ -33,3 +33,4 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
   - [`mkdir`](https://github.com/Def4Root/go-shell-commands/tree/main/mkdir)
   - [`touch`](https://github.com/Def4Root/go-shell-commands/tree/main/touch)
   - [`head`](https://github.com/Def4Root/go-shell-commands/tree/main/head)
+  - [`tail`](https://github.com/Def4Root/go-shell-commands/tree/main/tail)
