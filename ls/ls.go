@@ -35,9 +35,11 @@ func main() {
 
 	for _, file := range info {
 		if file.IsDir() {
-			fmt.Println(Green + file.Name() + Reset)
+			fmt.Print(Green , file.Name() , Reset, " ")
 		} else {
-			fmt.Println(Blue + file.Name() + Reset)
+			fmt.Print(Blue , file.Name() , Reset, " ")
 		}
 	}
+
+	fmt.Println()
 }
