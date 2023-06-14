@@ -1,6 +1,6 @@
 # go-shell-commands
 
-windowsでlsやtouchなどのコマンドを使いたかったので作りました。
+windowsでlsやtouchなどのコマンドを使いたかったので作りました。実用性のために作ったので、osパッケージというおおよそ完成されたものを使っています。
 
 ## Usage
 
@@ -34,3 +34,8 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
   - [`touch`](https://github.com/Def4Root/go-shell-commands/tree/main/touch)
   - [`head`](https://github.com/Def4Root/go-shell-commands/tree/main/head)
   - [`tail`](https://github.com/Def4Root/go-shell-commands/tree/main/tail)
+- 6/?
+  - // 自作コマンド
+  - [`mp`](https://github.com/Def4Root/go-shell-commands/tree/main/_mp)
+- 6/14
+  - [`mv`](https://github.com/Def4Root/go-shell-command/tree/main/mv)
