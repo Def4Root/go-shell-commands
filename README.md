@@ -38,4 +38,4 @@ windowsでlsやtouchなどのコマンドを使いたかったので作りまし
   - // 自作コマンド
   - [`mp`](https://github.com/Def4Root/go-shell-commands/tree/main/_mp)
 - 6/14
-  - [`mv`](https://github.com/Def4Root/go-shell-command/tree/main/mv)
+  - [`mv`](https://github.com/Def4Root/go-shell-commands/tree/main/mv)
