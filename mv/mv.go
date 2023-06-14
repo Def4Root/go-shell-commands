@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io"
 	"os"
 )
 
@@ -14,28 +13,8 @@ func main() {
 		return
 	}
 
-	err := func() error {
-		Path := args[1]
-		destPath := args[2]
-
-		File, err := os.Open(Path)
-		failOnError("failed to open file:", err)
-		defer File.Close()
-
-		destFile, err := os.Create(destPath)
-		failOnError("failed to create file:", err)
-		defer destFile.Close()
-
-		_, err = io.Copy(destFile, File)
-		failOnError("failed to copy file:", err)
-
-		err = os.Remove(Path)
-		failOnError("failed to redmove file:", err)
-
-		return nil
-	}()
-
-	failOnError("", err)
+	err := os.Rename(args[1], args[2])
+	failOnError("failed to rename file", err)
 }
 
 func failOnError(msg string, err error) {
